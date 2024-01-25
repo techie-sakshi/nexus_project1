@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Sign Up</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <form id="signupForm" action="#" method="post" onsubmit="return validateSignUpForm()">
+        <h1>Sign Up</h1>
+        <label for="newUsername">Username:</label>
+        <input type="text" id="newUsername" name="newUsername" required>
+        <div id="newUsernameError" class="error"></div>
+        <br>
+        <label for="newPassword">Password:</label>
+        <input type="password" id="newPassword" name="newPassword" required>
+        <div id="newPasswordError" class="error"></div>
+        <br>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <div id="confirmPasswordError" class="error"></div>
+        <br>
+        <input type="submit" value="Sign Up">
+        <p id="signupError" class="error"></p>
+        <p>Already have an account? <a href="/login.html">Login</a></p>
+    </form>
+
+    <script src="sign.js"></script>
+</body>
+</html>

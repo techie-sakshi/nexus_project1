@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(wp5055636.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; 
+}
+
+form {
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 30vw;
+    width: 90%;
+    text-align: center;
+    border:2px solid white;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px; 
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    border-radius: 16px;
+    font-size: 12px;
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #d1481a;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: wheat; 
+    font-size: 16px; 
+    margin-top: 0;
+}
+p a{
+    color: wheat; 
+    font-size: 16px; 
+    margin-top: 0;
+}
+
+.error {
+    color: #e8491d;
+    margin-top: 5px;
+}
